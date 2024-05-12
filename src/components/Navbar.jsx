@@ -11,8 +11,8 @@ export const NavBar = () => {
     const logo = 'Oxc</>de'
     return (
         <>
-            <div className="absolute w-full">
-                <div className="container mx-auto flex justify-between items-center py-8 px-6">
+            <div className="absolute w-full z-10">
+                <div className="w-full md:container mx-auto flex justify-between items-center py-8 md:px-6 px-4">
                     <div className="">
                         <h2 className="text-xl font-medium">{logo}</h2>
                     </div>
