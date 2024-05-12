@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { Logo } from "./index"
 
 const navigation = [
     { title: 'Home', link: '/', },
@@ -8,13 +9,12 @@ const navigation = [
 ]
 export const NavBar = () => {
     const [active, setActive] = useState(false)
-    const logo = 'Oxc</>de'
     return (
         <>
             <div className="absolute w-full z-10">
                 <div className="w-full md:container mx-auto flex justify-between items-center py-8 md:px-6 px-4">
-                    <div className="">
-                        <h2 className="text-xl font-medium">{logo}</h2>
+                    <div>
+                        <Logo />
                     </div>
                     <div>
                         <a href="#" onClick={() => setActive(prev => !prev)}>
@@ -32,7 +32,7 @@ export const NavBar = () => {
                 active &&  <div className="h-screen w-full fixed bg-[#121212] z-50 top-0 left-0">
                     <div className="w-full flex flex-col items-center justify-between h-full py-16">
                         <div className="">
-                            <h2 className="text-xl font-medium">{logo}</h2>
+                            <Logo />
                         </div>
                         <div className='absolute right-4 md:right-24 top-8'>
                             <a href="#" onClick={() => setActive(prev => !prev)}>

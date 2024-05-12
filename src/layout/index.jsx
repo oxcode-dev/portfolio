@@ -2,7 +2,6 @@
 
 import { NavBar } from "../components/index.js";
 import Head from "next/head.js";
-import Script from 'next/script'
 
 export default function RootLayout({children}) {
     return (
