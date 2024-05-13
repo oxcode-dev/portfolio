@@ -30,7 +30,7 @@ export const NavBar = () => {
             </div>
             {
                 active &&  <div className="h-screen w-full fixed bg-[#121212] z-50 top-0 left-0">
-                    <div className="w-full flex flex-col items-center justify-between h-full py-16">
+                    <div className="w-full flex flex-col items-center justify-across h-full py-16 space-y-8">
                         <div className="">
                             <Logo />
                         </div>
@@ -41,7 +41,7 @@ export const NavBar = () => {
                                 </svg>
                             </a>
                         </div>
-                        <div className="pb-24">
+                        <div className="py-10">
                             <div className='w-full mx-auto h-full'>
                                 <div className='flex flex-col mx-auto items-center justify-center h-full'>
                                     { navigation.map((nav, key) => (
@@ -56,7 +56,7 @@ export const NavBar = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="pt-10">
+                        <div className="py-2">
                             <div className="space-x-4">
                                 <a href="#">GH</a>
                                 <a href="#">LN</a>
