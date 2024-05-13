@@ -12,12 +12,12 @@ export const NavBar = () => {
     return (
         <>
             <div className="absolute w-full z-10">
-                <div className="w-full md:container mx-auto flex justify-between items-center py-8 md:px-6 px-4">
+                <div className="w-full md:container mx-auto flex justify-between items-start py-8 md:px-6 px-4 pr-6">
                     <div>
                         <Logo />
                     </div>
                     <div>
-                        <a href="#" onClick={() => setActive(prev => !prev)}>
+                        <a className="mr-2" href="#" onClick={() => setActive(prev => !prev)}>
                             <svg className="text-white" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="2.5" cy="2.5" r="2.5" fill="currentColor"/>
                                 <circle cx="14" cy="2.5" r="2.5" fill="currentColor"/>
