@@ -17,7 +17,7 @@ export const Projects = () => {
                                 <div>
                                     <div className="flex flex-wrap items-center">
                                         <div className='w-full md:w-1/2'>
-                                            <Image src={image} width={500} height={500} className='rounded-[5.3rem] pr-3' />
+                                            <Image alt='App Screenshot' src={image} width={500} height={500} className='rounded-[5.3rem] pr-3' />
                                         </div>
                                         <div className='w-full md:w-1/2'>
                                             <div className='pl-4 flex flex-col space-y-4'>

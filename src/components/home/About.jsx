@@ -8,7 +8,7 @@ export const About = () => {
             <div className='min-h-screen'>
                 <div className='container mx-auto flex flex-wrap items-center px-16 py-24'>
                     <div className='w-full md:w-1/2'>
-                        <Image src={image} width={500} height={500} className='' />
+                        <Image alt='Personal Shot' src={image} width={500} height={500} className='' />
                     </div>
                     <div className='w-full md:w-1/2'>
                         <div className='pl-4 flex flex-col space-y-4 md:space-y-6'>
