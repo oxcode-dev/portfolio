@@ -16,8 +16,8 @@ export const Projects = () => {
                             <div key={key} className="w-full border-2 border-slate-900/70 hover:shadow-md hover:shadow-slate-800/70 rounded-[7.3rem] p-12">
                                 <div>
                                     <div className="flex flex-wrap items-center">
-                                        <div className='w-full md:w-1/2'>
-                                            <Image alt="App Screenshot" src={image} className='rounded-[5.3rem] pr-3' />
+                                        <div className="w-full md:w-1/2">
+                                            <Image alt="App Screenshot" src={image} width={500} height={500} className='rounded-[5.3rem] pr-3' />
                                         </div>
                                         <div className='w-full md:w-1/2'>
                                             <div className='pl-4 flex flex-col space-y-4'>
