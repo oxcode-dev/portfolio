@@ -11,7 +11,7 @@ export const NavBar = () => {
     const [active, setActive] = useState(false)
     return (
         <>
-            <div className="absolute w-full z-10">
+            <div className="fixed w-full z-10 bg-[#060801]">
                 <div className="w-full md:container mx-auto flex justify-between items-start py-8 md:px-6 px-4 pr-6">
                     <div>
                         <Logo />
@@ -29,7 +29,7 @@ export const NavBar = () => {
                 </div>
             </div>
             {
-                active &&  <div className="h-screen w-full fixed bg-[#121212] z-50 top-0 left-0">
+                active &&  <div className="h-screen w-full fixed bg-[#060801] z-50 top-0 left-0">
                     <div className="w-full flex flex-col items-center justify-across h-full py-16 space-y-8">
                         <div className="">
                             <Logo />
