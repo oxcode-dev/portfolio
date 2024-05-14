@@ -5,7 +5,10 @@ const image = '/mine.jpg'
 export const About = () => {
     return ( 
         <>
-            <div className='min-h-screen'>
+            <div className='min-h-screen relative'>
+                <div className='absolute right-0 -top-12'>
+                    <h2 className='text-[8rem] text-white/10 uppercase'>About</h2>
+                </div>
                 <div className='container mx-auto flex flex-wrap items-center px-16 py-24'>
                     <div className='w-full md:w-1/2'>
                         <Image alt="Personal Shot" src={image} width={500} height={500} />

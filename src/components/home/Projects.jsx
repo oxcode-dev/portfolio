@@ -4,7 +4,10 @@ const image = '/mine.jpg'
 
 export const Projects = () => {
     return (
-        <div className='min-h-screen'> 
+        <div className='min-h-screen relative'>
+            <div className='absolute right-0 -top-12'>
+                <h2 className='text-[8rem] text-white/10 uppercase'>Projects</h2>
+            </div>
             <div className='container mx-auto flex flex-col items-center px-16 py-24'>
                 <h3 className='font-semibold text-xl md:text-3xl'>
                     Building the future, one line of code at a time...
