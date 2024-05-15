@@ -24,7 +24,7 @@ export const Projects = () => {
                                             <img alt="App Screenshot" src={image} width={500} height={750} className='md:rounded-[5.3rem] sm:pr-3 md:h-96 md:object-cover' />
                                         </div>
                                         <div className='w-full md:w-1/2'>
-                                            <div className='p-4 flex flex-col space-y-4'>
+                                            <div className='p-4 md:pl-6 flex flex-col space-y-4'>
                                                 <h4 className='font-medium text-lg md:text-xl'>Project Title</h4>
                                                 <div>
                                                     <p className='font-extralight text-sm'>
