@@ -28,7 +28,9 @@ export const Projects = () => {
                                                 <h4 className='font-medium text-lg md:text-xl'>Project Title</h4>
                                                 <div>
                                                     <p className='font-extralight text-sm'>
-                                                        Sweet creme is an online cake store that provides cakes, treats and other baked goods to their clients located primarily in Nigeria. Founded in 2018, their mission is to continue to provide top-notch baked cakes to both returning and new customers.
+                                                        Sweet creme is an online cake store that provides cakes, treats and other baked goods to their clients located 
+                                                        primarily in Nigeria. Founded in 2018, their mission is to continue to provide top-notch baked cakes to both 
+                                                        returning and new customers.
                                                     </p>
                                                 </div>
                                                 <div className='inline-flex space-x-2 text-xs flex-wrap uppercase font-extralight'>
