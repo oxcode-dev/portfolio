@@ -1,5 +1,5 @@
 'use client'
-import { HomeHero, HomeAbout, HomeProjects } from '@/components';
+import { HomeHero, HomeAbout, HomeProjects, HomeContact } from '@/components';
 import Layout from '../layout'
 
 export default function Home() {
@@ -8,6 +8,7 @@ export default function Home() {
         <HomeHero />
         <HomeAbout />
         <HomeProjects />
+        <HomeContact />
       </Layout>
   );
 }

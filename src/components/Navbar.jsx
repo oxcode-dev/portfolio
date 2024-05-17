@@ -11,7 +11,7 @@ export const NavBar = () => {
     const [active, setActive] = useState(false)
     return (
         <>
-            <div className="fixed w-full z-10 bg-[#060801]">
+            <div className="fixed w-full z-50 bg-[#060801]">
                 <div className="w-full md:container mx-auto flex justify-between items-start py-8 md:px-6 px-4 pr-6">
                     <div>
                         <Logo />
