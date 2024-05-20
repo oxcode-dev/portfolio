@@ -16,7 +16,9 @@ export const Contact = () => {
                     <p className="text-xl md:text-2xl uppercase font-extralight">Thanks For stopping by.</p>
                     <div className="py-16 pt-8 w-full md:max-w-5xl text-center">
                         <h2 className="inline-flex flex-col text-2xl md:text-[2.8em] leading-normal">
-                            <span>Collaboration, Work inquiry, Job opportunities? Keep In Touch.</span>
+                            <span>
+                                Collaboration, Work inquiry, Job opportunities? Keep In Touch.
+                            </span>
                         </h2>
                     </div>
                     
