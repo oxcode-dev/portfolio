@@ -1,21 +1,20 @@
-import logo from "./logo.svg";
+import personal from './../../public/mine.jpg'
 
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import css from "./../../public/tech/css.png";
+import docker from "./../../public/tech/docker.png";
+import figma from "./../../public/tech/figma.png";
+import git from "./../../public/tech/git.png";
+import html from "./../../public/tech/html.png";
+import javascript from "./../../public/tech/javascript.png";
+import mongodb from "./../../public/tech/mongodb.png";
+import nodejs from "./../../public/tech/nodejs.png";
+import reactjs from "./../../public/tech/reactjs.png";
+import redux from "./../../public/tech/redux.png";
+import tailwind from "./../../public/tech/tailwind.png";
+import typescript from "./../../public/tech/typescript.png";
+import threejs from "./../../public/tech/threejs.svg";
 
 export {
-  logo,
   css,
   docker,
   figma,
@@ -29,4 +28,5 @@ export {
   tailwind,
   typescript,
   threejs,
+  personal
 };

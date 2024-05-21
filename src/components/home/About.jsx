@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { personal } from './../assets'
 
 const image = '/mine.jpg'
 
@@ -11,7 +12,7 @@ export const About = () => {
                 </div>
                 <div className='container mx-auto flex flex-wrap items-center px-6 sm:px-8 md:px-16 py-24'>
                     <div className='w-full md:w-1/2'>
-                        <Image alt="Personal Shot" src={image} width={500} height={500} />
+                        <Image alt="Personal Shot" src={personal} width={500} height={500} />
                     </div>
                     <div className='w-full md:w-1/2'>
                         <div className='md:pl-4 flex flex-col space-y-4 md:space-y-6 py-4'>
