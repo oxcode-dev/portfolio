@@ -6,13 +6,13 @@ const image = '/mine.jpg'
 export const About = () => {
     return ( 
         <>
-            <div className='min-h-screen relative'>
+            <div className='min-h-screen relative group'>
                 <div className='absolute right-0 -top-12 opacity-50'>
                     <h2 className='text-6xl md:text-[8rem] text-white/10 uppercase'>About</h2>
                 </div>
                 <div className='container mx-auto flex flex-wrap items-center px-6 sm:px-8 md:px-16 py-24'>
                     <div className='w-full md:w-1/2'>
-                        <Image alt="Personal Shot" src={personal} width={500} height={500} />
+                        <Image className='grayscale hover:grayscale-0' alt="Personal Shot" src={personal} width={500} height={500} />
                     </div>
                     <div className='w-full md:w-1/2'>
                         <div className='md:pl-4 flex flex-col space-y-4 md:space-y-6 py-4'>
