@@ -1,12 +1,11 @@
+'use client'
 import Image from 'next/image'
 import { personal } from './../assets'
-
-const image = '/mine.jpg'
 
 export const About = () => {
     return ( 
         <>
-            <div className='min-h-screen relative group'>
+            <div id='about' className='min-h-screen relative group'>
                 <div className='absolute right-0 -top-12 opacity-50'>
                     <h2 className='text-6xl md:text-[8rem] text-white/10 uppercase'>About</h2>
                 </div>

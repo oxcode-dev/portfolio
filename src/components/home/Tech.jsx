@@ -7,13 +7,13 @@ export const Tech = () => {
             <div className='absolute right-0 -top-12 opacity-50'>
                 <h2 className='text-6xl md:text-[8rem] text-white/10 uppercase'>Tools</h2>
             </div>
-            <div className='container mx-auto flex flex-col items-center px-6 sm:px-8 md:px-16 py-16 md:py-24 md:pt-36'>
+            <div className='container mx-auto flex flex-col items-center px-6 sm:px-8 md:px-16 py-16 md:py-24'>
                 <h3 className='font-semibold text-xl md:text-2xl text-center inline-flex flex-col space-y-2'>
                     <span>“A good tool improves the way you work. A great tool improves the way you think.”</span>
                     <span>Jeff Duntemann</span>
                 </h3>
 
-                <div className="py-20 mx-auto w-full md:max-w-4xl flex flex-col space-y-12">
+                <div className="py-20 mx-auto w-full md:max-w-4xl flex flex-col">
                     <div className="flex flex-wrap justify-center">
                         {
                             technologies.map((technology, key) => (
@@ -22,7 +22,7 @@ export const Tech = () => {
                         }
                     </div>
                 </div>
-               
+
             </div>
         </div>
     )

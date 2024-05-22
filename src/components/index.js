@@ -6,6 +6,7 @@ import { Contact as HomeContact } from './home/Contact.jsx'
 import { Tech as HomeTech } from './home/Tech.jsx'
 import { Logo } from './Logo.jsx'
 import { TechCard } from './home/TechCard.jsx'
+import { ProjectCard } from './home/ProjectCard.jsx'
 import { Cursor } from './home/Cursor.jsx'
 
 export {
@@ -17,5 +18,6 @@ export {
     HomeContact,
     HomeTech,
     TechCard,
+    ProjectCard,
     Cursor,
 }

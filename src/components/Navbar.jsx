@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { Logo } from "./index"
+import { socialLinks } from '../constants/index'
 
 const navigation = [
     { title: 'Home', link: '/', },
@@ -74,10 +75,11 @@ export const NavBar = () => {
                         </div>
                         <div className="py-2">
                             <div className="space-x-4">
-                                <a href="#">GH</a>
-                                <a href="#">LN</a>
-                                <a href="#">X</a>
-                                <a href="#">IN</a>
+                                {
+                                    socialLinks.map((social, key) => (
+                                        <a href={social.link} key={key}>{social?.name}</a>
+                                    ))
+                                }
                             </div>
                         </div>
                     </div>
