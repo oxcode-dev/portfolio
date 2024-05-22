@@ -2,6 +2,7 @@
 
 import { NavBar, Cursor } from "../components/index.js";
 import Head from "next/head.js";
+import { socialLinks } from '../constants/index.js'
 
 export default function RootLayout({children}) {
     return (
@@ -19,16 +20,17 @@ export default function RootLayout({children}) {
                     <NavBar />
                     <div className="w-8 fixed bottom-0 left-10 z-40 hidden md:flex">
                         <div className="space-y-4 flex flex-col text-white after:w-0.5 after:h-28 after:bg-white after:ml-1.5 after:mt-2">
-                            <a href="#">GH</a>
-                            <a href="#">LN</a>
-                            <a href="#">X</a>
-                            <a href="#">IN</a>
+                            {
+                                socialLinks.map((social, key) => (
+                                    <a href={social.link} key={key}>{social?.name}</a>
+                                ))
+                            }
                         </div>
                     </div>
                     <div className="fixed bottom-0 right-10 z-50 hidden md:flex">
                         <div className="flex items-center after:w-0.5 after:h-28 after:bg-white after:mt-2.5" style={{ '-webkit-writing-mode': 'vertical-rl', writingMode: 'vertical-rl' }}>
                             <div className="space-x-4 font-extralight text-sm tracking-wide">
-                                <a href="#">mrexcelsam1@gmail.com</a>
+                                <a href="mailto:mrexcelsam1@gmail.com">mrexcelsam1@gmail.com</a>
                             </div>
                         </div>
                     </div>

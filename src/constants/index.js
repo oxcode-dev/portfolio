@@ -2,6 +2,7 @@ import {
     reactjs, css, html, javascript, redux,tailwind, git, nextjs, pinia,  nuxtjs,figma, jquery, 
     vscode, bulma, bootstrap, vuejs, firebase, hyper, vercel, postman, chartjs, reactNative,
 } from '../components/assets'
+
 export const technologies = [
     { title: 'HTML', icon: html},
     { title: 'CSS3', icon: css},
@@ -26,3 +27,10 @@ export const technologies = [
     { title: 'Hyper', icon: hyper},
     { title: 'Postman', icon: postman},
 ]  
+
+export const socialLinks = [
+    {name: 'GH', link: 'https://github.com/oxcode-dev'},
+    {name: 'LN', link: 'www.linkedin.com/in/oxcode001'},
+    {name: 'X', link: 'https://x.com/oxcode__'},
+    {name: 'IN', link: 'https://www.instagram.com/oxcode__/'},
+]

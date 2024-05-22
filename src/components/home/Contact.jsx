@@ -23,7 +23,7 @@ export const Contact = () => {
                     </div>
                     
                     <div>
-                        <a href="#" className="bg-white inline-flex items-center justify-center w-16 h-16 rounded-full">
+                        <a href="mailto:mrexcelsam1@gmail.com" className="bg-white inline-flex items-center justify-center w-16 h-16 rounded-full">
                             <svg className="text-[#060801] w-10" viewBox="0 0 43 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M0 10H41" stroke="currentColor" strokeWidth="1.5"/>
                                 <path d="M33 1L41.9 10.2727L33 19" stroke="currentColor" strokeWidth="1.5"/>
