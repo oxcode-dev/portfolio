@@ -1,11 +1,12 @@
 'use client'
 
-import { NavBar } from "../components/index.js";
+import { NavBar, Cursor } from "../components/index.js";
 import Head from "next/head.js";
 
 export default function RootLayout({children}) {
     return (
         <>
+            <Cursor />
             <Head>
                 <title>Samuel Osemeke</title>
                 <script src="https://cdn.tailwindcss.com" defer></script>

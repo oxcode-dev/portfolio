@@ -5,6 +5,8 @@ import { Projects as HomeProjects } from './home/Projects.jsx'
 import { Contact as HomeContact } from './home/Contact.jsx'
 import { Tech as HomeTech } from './home/Tech.jsx'
 import { Logo } from './Logo.jsx'
+import { TechCard } from './home/TechCard.jsx'
+import { Cursor } from './home/Cursor.jsx'
 
 export {
     NavBar,
@@ -14,4 +16,6 @@ export {
     HomeProjects,
     HomeContact,
     HomeTech,
+    TechCard,
+    Cursor,
 }
