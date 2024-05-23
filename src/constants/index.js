@@ -1,6 +1,7 @@
 import { 
     reactjs, css, html, javascript, redux,tailwind, git, nextjs, pinia,  nuxtjs,figma, jquery, 
     vscode, bulma, bootstrap, vuejs, firebase, hyper, vercel, postman, chartjs, reactNative,
+    barfresh, JobQuest, JobQuestAdmin, tobiPortfolio, quickremit, parizzo
 } from '../components/assets'
 
 export const technologies = [
