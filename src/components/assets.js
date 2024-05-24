@@ -24,13 +24,6 @@ import vuejs from "./../../public/tech/vuejs.webp";
 import chartjs from "./../../public/tech/chartjs.svg";
 import reactNative from "./../../public/tech/react-native.svg";
 // import typescript from "./../../public/tech/typescript.png";
-import barfresh from "./../../public/projects/barfresh.png";
-import barfreshAdmin from "./../../public/projects/barfresh-admin.png";
-import JobQuest from "./../../public/projects/jobquest.png";
-import JobQuestAdmin from "./../../public/projects/jobquest-admin.png";
-import parizzo from "./../../public/projects/parizzo.png";
-import quickremit from "./../../public/projects/quickremit.png";
-import tobiPortfolio from "./../../public/projects/tobi-dasilva.png";
 
 export {
   css,
@@ -58,11 +51,4 @@ export {
   reactNative,
   // typescript,
   personal, 
-  barfresh,
-  // barfreshAdmin,
-  JobQuest,
-  JobQuestAdmin,
-  tobiPortfolio,
-  quickremit,
-  parizzo
 };

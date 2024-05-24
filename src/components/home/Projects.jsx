@@ -1,4 +1,5 @@
 import { ProjectCard } from './ProjectCard'
+import { projects } from '../../constants/index'
 export const Projects = () => {
     return (
         <div className='min-h-screen relative'>
@@ -12,8 +13,8 @@ export const Projects = () => {
 
                 <div className="py-10 mx-auto w-full md:max-w-3xl flex flex-col space-y-12">
                     {
-                        [...Array(6).keys()].map((num, key) => (
-                            <ProjectCard key={key} />
+                        projects.map((project, key) => (
+                            <ProjectCard project={project} key={key} />
                         ))
                     }
                 </div>

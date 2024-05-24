@@ -1,7 +1,6 @@
 import { 
     reactjs, css, html, javascript, redux,tailwind, git, nextjs, pinia,  nuxtjs,figma, jquery, 
     vscode, bulma, bootstrap, vuejs, firebase, hyper, vercel, postman, chartjs, reactNative,
-    barfresh, JobQuest, JobQuestAdmin, tobiPortfolio, quickremit, parizzo
 } from '../components/assets'
 
 export const technologies = [
@@ -38,45 +37,36 @@ export const socialLinks = [
 
 export const projects = [
     {
-        name: "Car Rent",
+        title: "JobQuest",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "mongodb",
-                color: "green-text-gradient",
-            },
-            {
-                name: "tailwind",
-                color: "pink-text-gradient",
-            },
-        ],
-        // image: carrent,
-        source_code_link: "https://github.com/",
+            "Web-based platform that allows users to view, save, and apply jobs from various recruiters, providing a convenient and efficient ways for job application.",
+        tags: [ 'VueJs', 'Pinia', 'NuxtJS', 'Firebase', 'Tailwind', 'Vercel', 'Git'],
+        image: './projects/jobquest.png',
+        source_code_link: "https://github.com/oxcode-dev/jobquest",
+        site_link: "https://app-jobquest.vercel.app/",
     },
     {
-        name: "Job IT",
+        title: "Barfresh",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "restapi",
-                color: "green-text-gradient",
-            },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
-        ],
-        // image: jobit,
-        source_code_link: "https://github.com/",
+            "The project is an e-commerce web application for skincare products, where users can shop variety of skincare products.",
+        tags: ['NextJs', 'CSS', 'ReactJS', 'Tailwind', 'Firebase', 'Redux', 'Vercel', 'Git'],
+        image: './projects/barfresh.png',
+        source_code_link: "https://github.com/oxcode-dev/barfresh-ecommerce",
+        site_link: "https://barfresh.vercel.app/"
+    },
+    {
+        title: "Tobi DaSilva's Portfolio",
+        description:
+            "The project is a portfolio website for , where users can shop variety of skincare products.",
+        tags: ['CSS', 'ReactJS', 'Tailwind', 'Netlify', 'Git'],
+        image: './projects/tobi-dasilva.png',
+        source_code_link: "https://github.com/oxcode-dev/tobiportfolio",
+        site_link: "https://tobidasilva.com/about"
     },
 ];
+
+// // import barfreshAdmin from "./../../public/projects/barfresh-admin.png";
+// import JobQuestAdmin from "./projects/jobquest-admin.png";
+// import parizzo from "./projects/parizzo.png";
+// import quickremit from "./projects/quickremit.png";
+// import tobiPortfolio from "./projects/tobi-dasilva.png";
