@@ -60,13 +60,34 @@ export const projects = [
             "The project is a portfolio website for , where users can shop variety of skincare products.",
         tags: ['CSS', 'ReactJS', 'Tailwind', 'Netlify', 'Git'],
         image: './projects/tobi-dasilva.png',
-        source_code_link: "https://github.com/oxcode-dev/tobiportfolio",
-        site_link: "https://tobidasilva.com/about"
+        source_code_link: null, //"https://github.com/oxcode-dev/parizzo",
+        site_link: "https://tobidasilva.com"
+    },
+    {
+        title: "Parizzo Carpool",
+        description:
+            "Parizzo carpool is beyond saving on transportation cost or making extra cash carpooling while communting to and from work daily, It’s about strengthening the human bond through pleasureable rides, networking with like minds, positive contribution to the environment, and promotion of good deeds.",
+        tags: ['CSS', 'ReactJS', 'Tailwind', 'Netlify', 'Git'],
+        image: './projects/parizzo.png',
+        source_code_link: null, //"https://github.com/oxcode-dev/tobiportfolio",
+        site_link: "https://parizzo-test.netlify.app/"
+    },
+    {
+        title: "JobQuest Admin",
+        description:
+            "JobQuest Content Management System is a project where the contents of the JobQuest Job Board are being manipulated.",
+        tags: ['CSS', 'VueJS', 'Tailwind', 'Netlify', 'Git', 'Firebase', 'Pinia'],
+        image: './projects/jobquest-admin.png',
+        source_code_link: "https://github.com/oxcode-dev/job-quest-admin",
+        site_link: "https://jobquest-admin.netlify.app/"
+    },
+    {
+        title: "QuickRemit",
+        description:
+            "QuickRemit was founded in 2018 with a strong social purpose to make transfers faster, cheaper and easier for people who support their loved ones back home",
+        tags: ['CSS', 'ReactJS', 'Tailwind', 'Netlify', 'Git'],
+        image: './projects/quickremit.png',
+        source_code_link: "https://github.com/oxcode-dev/quickremit",
+        site_link: "https://quickremit.netlify.app/"
     },
 ];
-
-// // import barfreshAdmin from "./../../public/projects/barfresh-admin.png";
-// import JobQuestAdmin from "./projects/jobquest-admin.png";
-// import parizzo from "./projects/parizzo.png";
-// import quickremit from "./projects/quickremit.png";
-// import tobiPortfolio from "./projects/tobi-dasilva.png";
