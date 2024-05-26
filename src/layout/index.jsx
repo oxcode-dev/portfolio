@@ -3,11 +3,27 @@
 import { NavBar, Cursor } from "../components/index.js";
 import Head from "next/head.js";
 import { socialLinks } from '../constants/index.js'
+import { useEffect, useRef } from "react";
 
 export default function RootLayout({children}) {
+    useEffect(() => {
+        const body = document.body
+        const progressBar = document.querySelector('#progress-bar')
+
+        const animateProgressBar = () => {
+            let scrollDistance = -body.getBoundingClientRect().top;
+            let progressWidth = (scrollDistance / (body.getBoundingClientRect().height - document.documentElement.clientHeight)) * 100
+
+            progressBar.style.width = progressWidth > 0 ? Math.ceil(progressWidth) + '%' : 0
+        }
+    
+        window.addEventListener('scroll', animateProgressBar)
+    }, [])
+
     return (
         <>
             <Cursor />
+            <div className="fixed h-2 bg-gray-600 transition-all z-[60]" id="progress-bar"></div>
             <Head>
                 <title>Samuel Osemeke</title>
                 <script src="https://cdn.tailwindcss.com" defer></script>

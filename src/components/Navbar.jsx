@@ -45,7 +45,7 @@ export const NavBar = () => {
                 </div>
             </div>
             {
-                active &&  <div className="h-screen w-full fixed bg-[#060801] z-50 top-0 left-0">
+                active &&  <div className="h-screen w-full fixed bg-[#060801] z-[70] top-0 left-0">
                     <div className="w-full flex flex-col items-center justify-across h-full py-16 space-y-8">
                         <div className="">
                             <Logo />
