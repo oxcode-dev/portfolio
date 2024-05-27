@@ -1,13 +1,7 @@
 import React, { useState, useEffect } from "react"
 import { Logo } from "./index"
-import { socialLinks } from '../constants/index'
+import { socialLinks, navigationLinks } from '../constants/index'
 
-const navigation = [
-    { title: 'Home', link: '/', },
-    { title: 'About', link: '/#about', },
-    { title: 'Projects', link: '/store', },
-    { title: 'Contact', link: '/contact', },
-]
 export const NavBar = () => {
     const [active, setActive] = useState(false)
     const toggleNavs = e => {
@@ -35,10 +29,7 @@ export const NavBar = () => {
                     <div>
                         <a className="mr-2" href="#" onClick={e => toggleNavs(e) }>
                             <svg className="text-white" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="2.5" cy="2.5" r="2.5" fill="currentColor"/>
-                                <circle cx="14" cy="2.5" r="2.5" fill="currentColor"/>
-                                <circle cx="2.5" cy="14" r="2.5" fill="currentColor"/>
-                                <circle cx="14" cy="14" r="2.5" fill="currentColor"/>
+                                <circle cx="2.5" cy="2.5" r="2.5" fill="currentColor"/><circle cx="14" cy="2.5" r="2.5" fill="currentColor"/><circle cx="2.5" cy="14" r="2.5" fill="currentColor"/><circle cx="14" cy="14" r="2.5" fill="currentColor"/>
                             </svg>
                         </a>
                     </div>
@@ -60,14 +51,14 @@ export const NavBar = () => {
                         <div className="py-10">
                             <div className='w-full mx-auto h-full'>
                                 <div className='flex flex-col mx-auto items-center justify-center h-full'>
-                                    { navigation.map((nav, key) => (
+                                    { navigationLinks.map((nav, key) => (
                                         <a
-                                            onClick={e => toggleNavs(e)}
+                                            onClick={() => setActive(prev => !prev)}
                                             className={`px-4 py-5 text-2xl font-normal hover:text-green-600`}
                                             key={key} 
-                                            href={nav.link}
+                                            href={nav?.link || '#'}
                                         >
-                                            {nav.title}
+                                            {nav?.title || "N/A"}
                                         </a>
                                     ))}
                                 </div>
@@ -77,7 +68,7 @@ export const NavBar = () => {
                             <div className="space-x-4">
                                 {
                                     socialLinks.map((social, key) => (
-                                        <a href={social.link} key={key}>{social?.name}</a>
+                                        <a href={social?.link || '#'} key={key}>{social?.name || "N/A"}</a>
                                     ))
                                 }
                             </div>
@@ -85,7 +76,6 @@ export const NavBar = () => {
                     </div>
                 </div>
             }
-           
         </>
     )
 }

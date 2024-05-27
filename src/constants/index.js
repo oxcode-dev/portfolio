@@ -28,6 +28,13 @@ export const technologies = [
     { title: 'Postman', icon: postman},
 ]  
 
+export const navigationLinks = [
+    { title: 'Home', link: '/#', },
+    { title: 'About', link: '/#about', },
+    { title: 'Projects', link: '/#projects', },
+    { title: 'Contact', link: '/#contact', },
+]
+
 export const socialLinks = [
     {name: 'GH', link: 'https://github.com/oxcode-dev'},
     {name: 'LN', link: 'www.linkedin.com/in/oxcode001'},

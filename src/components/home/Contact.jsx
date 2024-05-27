@@ -1,12 +1,11 @@
 
 
 export const Contact = () => {
-    // const img = 'https://codewithsadee.github.io/richard-ryan/assets/images/footer-bg.jpg'
-    const img = 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+    const img = '/contact-bg.avif'
     
     return ( 
         <>
-            <div className='h-full md:min-h-screen relative'>
+            <div className='h-full md:min-h-screen relative' id="contact">
                 {/* <div className="absolute top-0 bottom-0 left-0 h-screen w-full z-50 bg-red-500"></div> */}
                 <div className='absolute right-0 -top-12 opacity-50 z-10'>
                     <h2 className='text-6xl md:text-[8rem] text-white/10 uppercase'>Contact</h2>

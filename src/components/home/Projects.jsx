@@ -2,7 +2,7 @@ import { ProjectCard } from './ProjectCard'
 import { projects } from '../../constants/index'
 export const Projects = () => {
     return (
-        <div className='min-h-screen relative'>
+        <div className='min-h-screen relative' id="projects">
             <div className='absolute right-0 -top-12 opacity-50'>
                 <h2 className='text-6xl md:text-[8rem] text-white/10 uppercase'>Projects</h2>
             </div>
