@@ -54,7 +54,7 @@ export const NavBar = () => {
                                     { navigationLinks.map((nav, key) => (
                                         <a
                                             onClick={() => setActive(prev => !prev)}
-                                            className={`px-4 py-5 text-2xl font-normal hover:text-green-600`}
+                                            className={`px-4 py-5 text-2xl font-normal hover:text-gray-400`}
                                             key={key} 
                                             href={nav?.link || '#'}
                                         >
