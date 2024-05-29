@@ -1,15 +1,13 @@
 import Image from 'next/image'
 
-// const image = 'https://img.freepik.com/free-vector/realistic-neon-lights-background_23-2148907367.jpg'
-// const image = './projects/barfresh.png'
 export const ProjectCard = ({ project }) => {
     return (
         <div className="w-full border-2 border-slate-900/70 hover:shadow-md hover:shadow-slate-800/70 md:rounded-[7.3rem] md:p-12 group">
             <div>
                 <div className="flex flex-wrap items-center">
                     <div className="w-full md:w-1/2">
-                        {/* <Image alt="App Screenshot" src={image} width={500} height={500} className='md:rounded-[5.3rem] sm:pr-3' /> */}
-                        <img alt="App Screenshot" src={project.image || image} width={500} height={750} className='md:rounded-[5.3rem] sm:pr-3 md:h-96 md:object-cover grayscale group-hover:grayscale-0' />
+                        <Image alt="App Screenshot" src={project.image} width={500} height={500} className='md:rounded-[5.3rem] sm:pr-3 md:h-96 md:object-cover grayscale group-hover:grayscale-0'/>
+                        {/* <img alt="App Screenshot" src={project.image || image} width={500} height={750} className='md:rounded-[5.3rem] sm:pr-3 md:h-96 md:object-cover grayscale group-hover:grayscale-0' /> */}
                     </div>
                     <div className='w-full md:w-1/2'>
                         <div className='p-4 md:pl-6 flex flex-col space-y-4'>
@@ -39,7 +37,6 @@ export const ProjectCard = ({ project }) => {
                                         <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" className="css-i6dzq1"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
                                     </a>
                                 }
-                                
                             </div>
                         </div>
                     </div>

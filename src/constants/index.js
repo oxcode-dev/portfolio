@@ -48,7 +48,7 @@ export const projects = [
         description:
             "Web-based platform that allows users to view, save, and apply jobs from various recruiters, providing a convenient and efficient ways for job application.",
         tags: [ 'VueJs', 'Pinia', 'NuxtJS', 'Firebase', 'Tailwind', 'Vercel', 'Git'],
-        image: './projects/jobquest.png',
+        image: '/projects/jobquest.png',
         source_code_link: "https://github.com/oxcode-dev/jobquest",
         site_link: "https://app-jobquest.vercel.app/",
     },
@@ -57,7 +57,7 @@ export const projects = [
         description:
             "The project is an e-commerce web application for skincare products, where users can shop variety of skincare products.",
         tags: ['NextJs', 'CSS', 'ReactJS', 'Tailwind', 'Firebase', 'Redux', 'Vercel', 'Git'],
-        image: './projects/barfresh.png',
+        image: '/projects/barfresh.png',
         source_code_link: "https://github.com/oxcode-dev/barfresh-ecommerce",
         site_link: "https://barfresh.vercel.app/"
     },
@@ -66,7 +66,7 @@ export const projects = [
         description:
             "The project is a portfolio website for , where users can shop variety of skincare products.",
         tags: ['CSS', 'ReactJS', 'Tailwind', 'Netlify', 'Git'],
-        image: './projects/tobi-dasilva.png',
+        image: '/projects/tobi-dasilva.png',
         source_code_link: null, //"https://github.com/oxcode-dev/parizzo",
         site_link: "https://tobidasilva.com"
     },
@@ -75,7 +75,7 @@ export const projects = [
         description:
             "Parizzo carpool is beyond saving on transportation cost or making extra cash carpooling while communting to and from work daily, It’s about strengthening the human bond through pleasureable rides, networking with like minds, positive contribution to the environment, and promotion of good deeds.",
         tags: ['CSS', 'ReactJS', 'Tailwind', 'Netlify', 'Git'],
-        image: './projects/parizzo.png',
+        image: '/projects/parizzo.png',
         source_code_link: null, //"https://github.com/oxcode-dev/tobiportfolio",
         site_link: "https://parizzo-test.netlify.app/"
     },
@@ -84,7 +84,7 @@ export const projects = [
         description:
             "JobQuest Content Management System is a project where the contents of the JobQuest Job Board are being manipulated.",
         tags: ['CSS', 'VueJS', 'Tailwind', 'Netlify', 'Git', 'Firebase', 'Pinia'],
-        image: './projects/jobquest-admin.png',
+        image: '/projects/jobquest-admin.png',
         source_code_link: "https://github.com/oxcode-dev/job-quest-admin",
         site_link: "https://jobquest-admin.netlify.app/"
     },
@@ -93,7 +93,7 @@ export const projects = [
         description:
             "QuickRemit was founded in 2018 with a strong social purpose to make transfers faster, cheaper and easier for people who support their loved ones back home",
         tags: ['CSS', 'ReactJS', 'Tailwind', 'Netlify', 'Git'],
-        image: './projects/quickremit.png',
+        image: '/projects/quickremit.png',
         source_code_link: "https://github.com/oxcode-dev/quickremit",
         site_link: "https://quickremit.netlify.app/"
     },
