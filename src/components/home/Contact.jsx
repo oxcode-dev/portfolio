@@ -1,5 +1,3 @@
-
-
 export const Contact = () => {
     const img = '/contact-bg.avif'
     
