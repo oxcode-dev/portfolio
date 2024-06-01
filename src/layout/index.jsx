@@ -3,18 +3,31 @@
 import { NavBar, Cursor } from "../components/index.js";
 import Head from "next/head.js";
 import { socialLinks } from '../constants/index.js'
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export default function RootLayout({children}) {
+    const [counter, setCounter] = useState(0)
     useEffect(() => {
         const body = document.body
         const progressBar = document.querySelector('#progress-bar')
+        const button_box = document.getElementById('button_box')
+        const mail_link = document.getElementById('mail_link')
+        
 
         const animateProgressBar = () => {
             let scrollDistance = -body.getBoundingClientRect().top;
             let progressWidth = (scrollDistance / (body.getBoundingClientRect().height - document.documentElement.clientHeight)) * 100
 
             progressBar.style.width = progressWidth > 0 ? Math.ceil(progressWidth) + '%' : 0
+            setCounter(Math.ceil(progressWidth))
+
+            if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+                button_box.classList.remove('hidden')
+                mail_link.classList.add('md:hidden')
+            } else {
+                button_box.classList.add('hidden')
+                mail_link.classList.remove('md:hidden')
+            }
         }
     
         window.addEventListener('scroll', animateProgressBar)
@@ -43,12 +56,19 @@ export default function RootLayout({children}) {
                             }
                         </div>
                     </div>
-                    <div className="fixed bottom-0 right-10 z-50 hidden md:flex">
+                    <div className="fixed bottom-0 right-10 z-50 hidden md:flex" id="mail_link">
                         <div className="flex items-center after:w-0.5 after:h-28 after:bg-white after:mt-2.5" style={{ '-webkit-writing-mode': 'vertical-rl', writingMode: 'vertical-rl' }}>
                             <div className="space-x-4 font-extralight text-sm tracking-wide">
                                 <a href="mailto:mrexcelsam1@gmail.com">mrexcelsam1@gmail.com</a>
                             </div>
                         </div>
+                    </div>
+                    
+                    <div className="fixed bottom-6 right-6 md:bottom-10 md:right-10 z-50 hidden" id="button_box">
+                        <a href="#" className="border border-dashed w-12 md:w-16 h-12 md:h-16 rounded-full inline-flex justify-center items-center text-sm md:text-md p-1">
+                            <span>{counter}</span>
+                            <sub>%</sub>
+                        </a>
                     </div>
                     { children }
                 </div>

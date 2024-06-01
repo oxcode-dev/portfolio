@@ -32,4 +32,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Domine", serif;
 }
 
-
+.slidingTextContainer {
+  position: absolute;
+  font-size: 50vh;
+  bottom: -120px;
+  white-space: nowrap;
+  color: #ffffff09;
+  width: 50%;
+  font-weight: bold;
+  display: none;
+}
