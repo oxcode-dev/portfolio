@@ -37,6 +37,7 @@ export default function RootLayout({children}) {
         <>
             <Cursor />
             <div className="fixed h-2 bg-gray-600 transition-all z-[60]" id="progress-bar"></div>
+            
             <Head>
                 <title>Samuel Osemeke</title>
                 <script src="https://cdn.tailwindcss.com" defer></script>
@@ -44,6 +45,7 @@ export default function RootLayout({children}) {
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin='true' />
                 <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Inter:slnt,wght@-10..0,100..900&display=swap" rel="stylesheet"></link>
             </Head>
+
             <div suppressHydrationWarning={true}>
                 <div className="">
                     <NavBar />
