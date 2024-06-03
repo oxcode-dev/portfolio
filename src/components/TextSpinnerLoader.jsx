@@ -9,7 +9,7 @@ const yearVariant = {
   animate: {
     opacity: 1,
     transition: {
-      duration: 4,
+      duration: 3,
       repeat: Infinity,
       ease: "linear", 
     },
@@ -17,7 +17,7 @@ const yearVariant = {
 }
 
 export default function TextSpinnerLoader() {
-  const text = "Samuel Osemeke . Frontend developer";
+  const text = "Oxcode . Frontend developer";
   const characters = text.split("");
 
   const radius = 80;
@@ -50,7 +50,7 @@ export default function TextSpinnerLoader() {
       animate(
         scope.current,
         { rotate: 360 },
-        { duration: 3.5, ease: "linear", repeat: Infinity }
+        { duration: 3, ease: "linear", repeat: Infinity }
       );
     };
     animateLoader();
@@ -59,10 +59,10 @@ export default function TextSpinnerLoader() {
   return (
     <div className="relative"> 
       <motion.div variants={yearVariant} initial="hidden" animate="animate" className="absolute top-10 left-12 inline-flex flex-col items-center justify-center w-16">
-        <span>
-          <span className="text-4xl">5</span>
+        <h2>
+          <span className="text-2xl md:text-4xl">5</span>
           <sup className="text-xl">+</sup>
-        </span>
+        </h2>
         <span className="text-sm">Years</span>
         <span className="text-sm">Experience</span>
       </motion.div>
