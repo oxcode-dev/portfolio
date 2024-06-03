@@ -2,6 +2,20 @@ import { motion, useAnimate } from "framer-motion";
 // import "./styles.css";
 import { useEffect } from "react";
 
+const yearVariant = {
+  hidden: {
+    opacity: 0,
+  },
+  animate: {
+    opacity: 1,
+    transition: {
+      duration: 4,
+      repeat: Infinity,
+      ease: "linear", 
+    },
+  },
+}
+
 export default function TextSpinnerLoader() {
   const text = "Samuel Osemeke . Frontend developer";
   const characters = text.split("");
@@ -43,23 +57,34 @@ export default function TextSpinnerLoader() {
   }, []);
 
   return (
-    <motion.div ref={scope} className="relative aspect-[1] border rounded-full" style={{ width: radius * 2 }}>
-      <p aria-label={text} />
-      <p aria-hidden="true" className="text">
-        {characters.map((ch, i) => (
-          <motion.span
-            key={i}
-            className={`absolute top-0 left-[50%] uppercase letter letter-${i}`}
-            style={{
-              transformOrigin: `0 ${radius}px`,
-              transform: `rotate(${i * letterSpacing}deg)`,
-              fontSize,
-            }}
-          >
-            {ch}
-          </motion.span>
-        ))}
-      </p>
-    </motion.div>
+    <div className="relative"> 
+      <motion.div variants={yearVariant} initial="hidden" animate="animate" className="absolute top-10 left-12 inline-flex flex-col items-center justify-center w-16">
+        <span>
+          <span className="text-4xl">5</span>
+          <sup className="text-xl">+</sup>
+        </span>
+        <span className="text-sm">Years</span>
+        <span className="text-sm">Experience</span>
+      </motion.div>
+      <motion.div ref={scope} className="relative aspect-[1] border rounded-full" style={{ width: radius * 2 }}>
+        <p aria-label={text} />
+        <p aria-hidden="true" className="text">
+          {characters.map((ch, i) => (
+            <motion.span
+              key={i}
+              className={`absolute top-0 left-[50%] uppercase letter letter-${i}`}
+              style={{
+                transformOrigin: `0 ${radius}px`,
+                transform: `rotate(${i * letterSpacing}deg)`,
+                fontSize,
+              }}
+            >
+              {ch}
+            </motion.span>
+          ))}
+        </p>
+      </motion.div>
+    </div>
+   
   );
 }
