@@ -1,5 +1,4 @@
 import { motion, useAnimate } from "framer-motion";
-// import "./styles.css";
 import { useEffect } from "react";
 
 const yearVariant = {
