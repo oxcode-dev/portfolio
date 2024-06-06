@@ -3,7 +3,7 @@
 import { NavBar, Cursor } from "../components/index.js";
 import Head from "next/head.js";
 import { socialLinks } from '../constants/index.js'
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function RootLayout({children}) {
     const [counter, setCounter] = useState(0)

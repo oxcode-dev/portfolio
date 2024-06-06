@@ -7,7 +7,6 @@ export const ProjectCard = ({ project }) => {
                 <div className="flex flex-wrap items-center">
                     <div className="w-full md:w-1/2">
                         <Image alt="App Screenshot" src={project.image} width={500} height={500} className='md:rounded-[5.3rem] sm:pr-3 md:h-96 md:object-cover grayscale group-hover:grayscale-0'/>
-                        {/* <img alt="App Screenshot" src={project.image || image} width={500} height={750} className='md:rounded-[5.3rem] sm:pr-3 md:h-96 md:object-cover grayscale group-hover:grayscale-0' /> */}
                     </div>
                     <div className='w-full md:w-1/2'>
                         <div className='p-4 md:pl-6 flex flex-col space-y-4'>
