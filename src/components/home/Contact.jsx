@@ -8,7 +8,6 @@ export const Contact = () => {
                     <h2 className='text-6xl md:text-[8rem] text-white/10 uppercase'>Contact</h2>
                 </div>
                 
-                
                 <div className="relative bottom-0 w-full">
                     <div className="h-full w-full absolute bg-gradient-to-b from-[#060801] to-black/50 via-[#060801] via-50%">
                         <div className='container mx-auto flex flex-col items-center px-6 sm:px-8 md:px-16 py-24 md:py-32 md:pt-48 relative z-10'>
