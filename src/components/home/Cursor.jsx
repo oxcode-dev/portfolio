@@ -6,7 +6,6 @@ export const Cursor = () => {
 
     useEffect(() => {
         const mouseMove = (e) => {
-            // console.log(e.target.tagName)
             setPosition({ x: e.clientX, y: e.clientY });
         };
 

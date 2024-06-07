@@ -4,7 +4,6 @@ export const Contact = () => {
     return ( 
         <>
             <div className='h-full md:min-h-screen relative' id="contact">
-                {/* <div className="absolute top-0 bottom-0 left-0 h-screen w-full z-50 bg-red-500"></div> */}
                 <div className='absolute right-0 -top-12 opacity-50 z-10'>
                     <h2 className='text-6xl md:text-[8rem] text-white/10 uppercase'>Contact</h2>
                 </div>
