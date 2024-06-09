@@ -37,7 +37,7 @@ export const navigationLinks = [
 
 export const socialLinks = [
     {name: 'GH', link: 'https://github.com/oxcode-dev'},
-    {name: 'LN', link: 'www.linkedin.com/in/oxcode001'},
+    {name: 'LN', link: 'https://www.linkedin.com/in/oxcode001'},
     {name: 'X', link: 'https://x.com/oxcode__'},
     {name: 'IN', link: 'https://www.instagram.com/oxcode__/'},
 ]
