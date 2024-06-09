@@ -53,7 +53,7 @@ export default function RootLayout({children}) {
                         <div className="space-y-4 flex flex-col text-white after:w-0.5 after:h-28 after:bg-white after:ml-1.5 after:mt-2">
                             {
                                 socialLinks.map((social, key) => (
-                                    <a href={social.link} key={key}>{social?.name}</a>
+                                    <a target="blank" href={social.link} key={key}>{social?.name}</a>
                                 ))
                             }
                         </div>
