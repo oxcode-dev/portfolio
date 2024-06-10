@@ -65,7 +65,7 @@ export const projects = [
         title: "Tobi DaSilva's Portfolio",
         description:
             "The project is a portfolio website for , where users can shop variety of skincare products.",
-        tags: ['CSS', 'ReactJS', 'Tailwind', 'Netlify', 'Git'],
+        tags: ['CSS', 'ReactJS', 'Tailwind', 'Vercel', 'Git'],
         image: '/projects/tobi-dasilva.png',
         source_code_link: null, //"https://github.com/oxcode-dev/parizzo",
         site_link: "https://tobidasilva.com"
