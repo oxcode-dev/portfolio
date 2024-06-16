@@ -37,11 +37,11 @@ export const NavBar = () => {
             </div>
             
             <div className={`h-screen w-full fixed bg-[#060801] z-[70] top-0 left-0 transition-transform duration-[0.8s] ease-[ease-in-out] ${active ? "translate-y-[0%]" : "translate-y-[-150%]"}`}>
-                <div className="w-full flex flex-col items-center justify-across h-full py-16 space-y-8">
+                <div className="w-full flex flex-col items-center justify-across h-full py-16 space-y-8 container mx-auto relative">
                     <div className="">
                         <Logo />
                     </div>
-                    <div className='absolute right-4 md:right-24 top-4'>
+                    <div className='absolute right-4 md:right-8 top-4 md:top-2'>
                         <a href="#" onClick={e => toggleNavs(e)}>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
