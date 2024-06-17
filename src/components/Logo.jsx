@@ -1,5 +1,5 @@
-import Image from "next/image"
-import LogoImg from './../../public/logo.png'
+// import Image from "next/image"
+// import LogoImg from './../../public/logo.png'
 
 export const Logo =() => {
     const logo = 'Oxc</>de'
