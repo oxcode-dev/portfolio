@@ -16,6 +16,7 @@ const sliderVariants = {
       },
     },
 };
+
 export const Hero = () => {
     const info = `
         I enjoyed developing new user-facing features, the structure and design of web pages, building reusable codes, 
