@@ -84,6 +84,5 @@ export default function TextSpinnerLoader() {
         </p>
       </motion.div>
     </div>
-   
   );
 }
