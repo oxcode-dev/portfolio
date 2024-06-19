@@ -22,7 +22,6 @@ export const Tech = () => {
                         }
                     </div>
                 </div>
-
             </div>
         </div>
     )
