@@ -15,7 +15,6 @@ const yearVariant = {
   },
 }
 
-
 export default function TextSpinnerLoader() {
   const text = "Oxcode . Frontend developer";
   const characters = text.split("");
