@@ -1,5 +1,6 @@
 import Image from 'next/image'
 
+
 export const ProjectCard = ({ project }) => {
     return (
         <div className="w-full border-2 border-slate-900/70 hover:shadow-md hover:shadow-slate-800/70 md:rounded-[7.3rem] md:p-12 group">
