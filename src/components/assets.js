@@ -52,5 +52,3 @@ export {
   typescript,
   personal, 
 };
-
-
