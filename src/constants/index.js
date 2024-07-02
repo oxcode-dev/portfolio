@@ -1,6 +1,6 @@
 import { 
     reactjs, css, html, javascript, redux,tailwind, git, nextjs, pinia,  nuxtjs,figma, jquery, 
-    vscode, bulma, bootstrap, vuejs, firebase, hyper, vercel, postman, chartjs, reactNative,
+    vscode, bulma, bootstrap, vuejs, firebase, hyper, vercel, postman, chartjs, reactNative, typescript,
 } from '../components/assets'
 
 export const technologies = [
@@ -16,6 +16,7 @@ export const technologies = [
     { title: 'Pinia', icon: pinia},
     { title: 'Next JS', icon: nextjs},
     { title: 'Nuxt JS', icon: nuxtjs},
+    { title: 'TypeScript', icon: typescript},
     { title: 'jQuery', icon: jquery},
     { title: 'Chart JS', icon: chartjs},
     { title: 'React Native', icon: reactNative},

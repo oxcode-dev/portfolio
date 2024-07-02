@@ -23,7 +23,7 @@ import bootstrap from "./../../public/tech/bootstrap.png";
 import vuejs from "./../../public/tech/vuejs.webp";
 import chartjs from "./../../public/tech/chartjs.svg";
 import reactNative from "./../../public/tech/react-native.svg";
-// import typescript from "./../../public/tech/typescript.png";
+import typescript from "./../../public/tech/typescript.png";
 
 export {
   css,
@@ -49,6 +49,6 @@ export {
   vuejs,
   chartjs,
   reactNative,
-  // typescript,
+  typescript,
   personal, 
 };
