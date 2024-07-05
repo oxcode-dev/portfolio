@@ -7,7 +7,6 @@ export const NavBar = () => {
     const [active, setActive] = useState(false)
     const toggleNavs = e => {
         setActive(prev => !prev)
-
         e.preventDefault();
     }
 
