@@ -42,5 +42,6 @@ export const ProjectCard = ({ project }) => {
                 </div>
             </div>
         </div>
+        
     )
 }
