@@ -65,7 +65,7 @@ export const projects = [
     {
         title: "Tobi DaSilva's Portfolio",
         description:
-            "The project is a portfolio website for , where users can shop variety of skincare products.",
+            "This project is a portfolio for Digital Product Designer, based in Lagos, Nigeria, currently crafting digital experiences at Tech1M",
         tags: ['CSS', 'ReactJS', 'Tailwind', 'Vercel', 'Git'],
         image: '/projects/tobi-dasilva.png',
         source_code_link: null, //"https://github.com/oxcode-dev/parizzo",
