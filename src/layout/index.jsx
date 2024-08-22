@@ -36,7 +36,7 @@ export default function RootLayout({children}) {
     return (
         <>
             <Head>
-                <title>Samuel Osemeke</title>
+                <title>Samuel Osemeke | The Web Developer | A Creative Frontend Developer.</title>
                 <script src="https://cdn.tailwindcss.com" defer></script>
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin='true' />
