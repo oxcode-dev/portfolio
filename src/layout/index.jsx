@@ -4,8 +4,6 @@ import { NavBar, Cursor } from "../components/index.js";
 import Head from "next/head.js";
 import { socialLinks } from '../constants/index.js'
 import { useEffect, useState } from "react";
-import Script from 'next/script'
-import { Metadata } from 'next'
 
 export const metadata = {
     title: {
