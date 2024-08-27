@@ -5,6 +5,14 @@ import Head from "next/head.js";
 import { socialLinks } from '../constants/index.js'
 import { useEffect, useState } from "react";
 import Script from 'next/script'
+import { Metadata } from 'next'
+
+export const metadata = {
+  title: {
+    template: '%s | Acme',
+    default: 'Acme', // a default is required when creating a template
+  },
+}
 
 export default function RootLayout({children}) {
     const [counter, setCounter] = useState(0)
