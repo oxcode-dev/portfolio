@@ -43,12 +43,12 @@ export const Hero = () => {
                     </div>
 
                     <motion.div
-                        className="slidingTextContainer"
+                        className="slidingTextContainer hidden md:flex"
                         variants={sliderVariants}
                         initial="initial"
                         animate="animate"
                     >
-                        Writer Content
+                        Frontend Developer
                     </motion.div>
                 </div>
             </main>
