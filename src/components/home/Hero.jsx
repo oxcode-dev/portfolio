@@ -48,7 +48,7 @@ export const Hero = () => {
                         initial="initial"
                         animate="animate"
                     >
-                        Writer Content Creator Influencer
+                        Writer Content
                     </motion.div>
                 </div>
             </main>
