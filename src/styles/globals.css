@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .slidingTextContainer {
   position: absolute;
-  font-size: 50vh;
+  font-size: 45vh;
   bottom: -120px;
   white-space: nowrap;
   color: #ffffff09;

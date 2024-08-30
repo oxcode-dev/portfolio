@@ -42,14 +42,17 @@ export const Hero = () => {
                         </a>
                     </div>
 
-                    <motion.div
-                        className="slidingTextContainer hidden md:flex"
-                        variants={sliderVariants}
-                        initial="initial"
-                        animate="animate"
-                    >
-                        Frontend Developer
-                    </motion.div>
+                    <div className="w-full overflow-x-hidden hidden">
+                        <motion.div
+                            className="slidingTextContainer hidden md:flex"
+                            variants={sliderVariants}
+                            initial="initial"
+                            animate="animate"
+                        >
+                            Frontend Developer
+                        </motion.div>
+                    </div>
+                    
                 </div>
             </main>
         </>
