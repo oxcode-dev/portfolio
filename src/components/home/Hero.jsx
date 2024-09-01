@@ -36,7 +36,7 @@ export const Hero = () => {
                         { info }
                     </p>
 
-                    <div className="w-full md:max-w-2xl flex justify-center pt-16 py-10 animate-pulse relaive z-50">
+                    <div className="w-full md:max-w-2xl flex justify-center pt-16 py-10 animate-pulse relative z-50">
                         <a href="#projects" className="h-10 w-6 border rounded-full inline-flex items-center py-1 justify-center animate-bounce" title="Check my Portfolio">
                             <span className="rounded-full w-2 h-2 bg-white animate-bounce"></span>
                         </a>
