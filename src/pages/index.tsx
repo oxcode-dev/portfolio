@@ -1,6 +1,7 @@
 'use client'
 import { HomeHero, HomeAbout, HomeProjects, HomeContact, HomeTech } from '@/components';
 import Layout from '../layout'
+import Loader from '@/components/Loader.jsx'
 
 export default function Home() {
   return (
@@ -10,6 +11,9 @@ export default function Home() {
         <HomeProjects />
         <HomeTech />
         <HomeContact />
+
+        <Loader />
+
       </Layout>
   );
 }
