@@ -12,8 +12,10 @@ export default function Home() {
         <HomeTech />
         <HomeContact />
 
-        {/* <Loader /> */}
+        <Loader />
 
       </Layout>
   );
 }
+
+
