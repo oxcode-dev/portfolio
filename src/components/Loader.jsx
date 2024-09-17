@@ -13,4 +13,3 @@ export default function Loader() {
 
   return <motion.h1>{rounded}</motion.h1>;
 }
-
