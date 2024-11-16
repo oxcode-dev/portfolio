@@ -22,6 +22,7 @@ import bulma from "./../../public/tech/bulma.svg";
 import bootstrap from "./../../public/tech/bootstrap.png";
 import vuejs from "./../../public/tech/vuejs.webp";
 import chartjs from "./../../public/tech/chartjs.svg";
+import vitest from "./../../public/tech/vitest.svg";
 import reactNative from "./../../public/tech/react-native.svg";
 import typescript from "./../../public/tech/typescript.png";
 
@@ -51,4 +52,5 @@ export {
   reactNative,
   typescript,
   personal, 
+  vitest,
 };
