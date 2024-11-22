@@ -76,7 +76,7 @@ export const projects = [
     {
         title: "Parizzo Carpool",
         description:
-            "Parizzo carpool is beyond saving on transportation cost or making extra cash carpooling while communting to and from work daily, It’s about strengthening the human bond through pleasureable rides, networking with like minds, positive contribution to the environment, and promotion of good deeds.",
+            "Parizzo carpool is beyond saving on transportation cost or making extra cash carpooling while commuting to and from work daily, It’s about strengthening the human bond through pleasureable rides, networking with like minds, positive contribution to the environment, and promotion of good deeds.",
         tags: ['CSS', 'ReactJS', 'Tailwind', 'Netlify', 'Git'],
         image: '/projects/parizzo.png',
         source_code_link: null, //"https://github.com/oxcode-dev/tobiportfolio",
