@@ -101,3 +101,5 @@ export const projects = [
         site_link: "https://quickremit.netlify.app/"
     },
 ];
+
+
