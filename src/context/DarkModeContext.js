@@ -10,9 +10,9 @@ const DarkModeProvider = (props) => {
 
     return(
         <div>
-            <DarkModeContext>
+            <DarkModeContext.Provider value={{ isDarkMode, toggleDarkMode }}>
                 {props.children}
-            </DarkModeContext>
+            </DarkModeContext.Provider>
         </div>
     )
 }
