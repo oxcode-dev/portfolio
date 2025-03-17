@@ -9,7 +9,7 @@ import { DarkModeContext } from "@/context/DarkModeContext.js";
 
 export default function RootLayout({children}) {
     const [counter, setCounter] = useState(0)
-    const {isDarkMode} = useContext(DarkModeContext)
+    const {isDarkMode, toggleDarkMode} = useContext(DarkModeContext)
 
     useEffect(() => {
         const body = document.body
@@ -76,9 +76,11 @@ export default function RootLayout({children}) {
                             <sub>%</sub>
                         </a>
                     </div>
-                    {/* <div className={`${!isDarkMode ? 'bg-red-600' : 'bg-blue-600'} h-64 w-full`}>
-                        I love Me
-                    </div> */}
+                    <div className={`${!isDarkMode ? 'bg-red-600' : 'bg-blue-600'} h-64 w-full py-32`}>
+                        <button onClick={() => toggleDarkMode()}>
+                            Change color
+                        </button>
+                    </div>
                     { children }
                 </div>
             </div>
