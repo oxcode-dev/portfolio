@@ -3,12 +3,14 @@
 import { NavBar, Cursor } from "../components/index.js";
 import Head from "next/head.js";
 import { socialLinks } from '../constants/index.js'
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
+import { DarkModeContext } from "@/context/DarkModeContext.js";
 
 
 export default function RootLayout({children}) {
     const [counter, setCounter] = useState(0)
-    const {isDarkMode} = 
+    const {isDarkMode} = useContext(DarkModeContext)
+
     useEffect(() => {
         const body = document.body
         const progressBar = document.querySelector('#progress-bar')
@@ -74,6 +76,9 @@ export default function RootLayout({children}) {
                             <sub>%</sub>
                         </a>
                     </div>
+                    {/* <div className={`${!isDarkMode ? 'bg-red-600' : 'bg-blue-600'} h-64 w-full`}>
+                        I love Me
+                    </div> */}
                     { children }
                 </div>
             </div>
