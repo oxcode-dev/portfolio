@@ -9,8 +9,10 @@ const DarkModeProvider = (props) => {
     }
 
     return(
-        <>
-            
-        </>
+        <div>
+            <DarkModeContext>
+                {props.children}
+            </DarkModeContext>
+        </div>
     )
 }
