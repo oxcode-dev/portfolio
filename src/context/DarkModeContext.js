@@ -1,7 +1,10 @@
-import React, { createContext } from "react";
+import React, { createContext, useState } from "react";
 
-const ThemeModeContext = createContext()
+const DarkModeContext = createContext()
 
-const ThemeModeProvider = (props) => {
-
+const DarkModeProvider = (props) => {
+    const [isDarkMode, setIsDarkMode] = useState(false)
+    const toggleDarkMode = () => {
+        setIsDarkMode(isDarkMode)
+    }
 }
