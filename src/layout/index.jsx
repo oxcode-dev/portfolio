@@ -8,6 +8,7 @@ import { useEffect, useState } from "react";
 
 export default function RootLayout({children}) {
     const [counter, setCounter] = useState(0)
+    const {isDarkMode} = 
     useEffect(() => {
         const body = document.body
         const progressBar = document.querySelector('#progress-bar')
