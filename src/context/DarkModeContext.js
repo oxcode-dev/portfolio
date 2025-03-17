@@ -16,3 +16,5 @@ const DarkModeProvider = (props) => {
         </div>
     )
 }
+
+export {DarkModeContext, DarkModeProvider};
