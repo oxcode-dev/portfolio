@@ -50,7 +50,7 @@ export default function RootLayout({children}) {
             <Cursor />
             <div className="fixed h-2 bg-gray-600 transition-all z-[60]" id="progress-bar"></div>
 
-            <div suppressHydrationWarning={true}>
+            <div suppressHydrationWarning={true} className={`text-[${!isDarkMode ? '#060801' : 'white'}] bg-[${isDarkMode ? '#060801' : 'white'}]`}>
                 <div className="">
                     <NavBar />
                     <div className="w-8 fixed bottom-0 left-10 z-40 hidden md:flex">
@@ -76,7 +76,7 @@ export default function RootLayout({children}) {
                             <sub>%</sub>
                         </a>
                     </div>
-                    
+
                     { children }
                 </div>
             </div>

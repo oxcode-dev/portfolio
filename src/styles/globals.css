@@ -10,8 +10,8 @@ body {
   scroll-behavior: smooth;
   transition: all 3s;
   box-sizing: border-box;
-  background-color: #060801;
-  color: #fff;
+  /* background-color: #060801; */
+  /* color: #fff; */
   /* background-attachment: fixed; */
   /* background-image: url('/stars.png'); */
   /* background-repeat: no-repeat; */
