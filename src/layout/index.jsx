@@ -54,7 +54,7 @@ export default function RootLayout({children}) {
                 <div className="">
                     <NavBar />
                     <div className="w-8 fixed bottom-0 left-10 z-40 hidden md:flex">
-                        <div className="space-y-4 flex flex-col text-center after:w-0.5 after:h-28 after:bg-white after:ml-1.5 after:mt-2">
+                        <div className={`space-y-4 flex flex-col text-center after:w-0.5 after:h-28 after:bg-[${!isDarkMode ? '#060801' : 'white'}] after:ml-1.5 after:mt-2`}>
                             {
                                 socialLinks.map((social, key) => (
                                     <a target="blank" href={social.link} key={key}>{social?.name}</a>
@@ -64,7 +64,7 @@ export default function RootLayout({children}) {
                     </div>
                     <div className="fixed bottom-0 right-10 z-50 hidden md:flex" id="mail_link">
                         <div 
-                            className="flex items-center after:w-0.5 after:h-28 after:bg-white after:mt-2.5" 
+                            className={`flex items-center after:w-0.5 after:h-28 after:bg-[${!isDarkMode ? '#060801' : 'white'}] after:mt-2.5`} 
                             style={{ 'WebkitWritingMode': 'vertical-rl', writingMode: 'vertical-rl' }}
                         >
                             <div className="space-x-4 font-extralight text-sm tracking-wide">

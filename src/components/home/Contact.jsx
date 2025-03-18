@@ -9,7 +9,7 @@ export const Contact = () => {
                 </div>
                 
                 <div className="relative bottom-0 w-full">
-                    <div className="h-full w-full absolute bg-gradient-to-b from-[#060801] to-black/50 via-[#060801] via-50%">
+                    <div className="h-full w-full absolute bg-gradient-to-b from-[#060801] to-black/50 via-[#060801] via-40%">
                         <div className='container mx-auto flex flex-col items-center px-6 sm:px-8 md:px-16 py-24 md:py-32 md:pt-48 relative z-10'>
                             <p className="text-md md:text-xl uppercase font-extralight">Thanks For stopping by.</p>
                             <div className="md:py-16 py-8 w-full md:max-w-5xl text-center">
