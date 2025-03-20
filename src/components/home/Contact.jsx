@@ -1,5 +1,8 @@
+import { DarkModeContext } from "@/context/DarkModeContext"
+
 export const Contact = () => {
     const img = '/contact-bg.avif'
+    const {isDarkMode, toggleDarkMode} = useContext(DarkModeContext)
     
     return ( 
         <>
