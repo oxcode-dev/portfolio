@@ -59,7 +59,7 @@ export default function TextSpinnerLoader() {
     <div className="relative"> 
       <motion.div variants={yearVariant} initial="hidden" animate="animate" className="absolute top-10 left-12 inline-flex flex-col items-center justify-center w-16">
         <h2>
-          <span className="text-2xl md:text-4xl">5</span>
+          <span className="text-2xl md:text-4xl">4</span>
           <sup className="text-xl">+</sup>
         </h2>
         <span className="text-sm">Years</span>
