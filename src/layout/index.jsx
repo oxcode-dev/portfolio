@@ -74,7 +74,7 @@ export default function RootLayout({children}) {
                     </div>
                     
                     <div className="fixed bottom-6 right-6 md:bottom-10 md:right-10 z-50 hidden" id="button_box">
-                        <a href="#" className="border border-dashed w-12 md:w-16 h-12 md:h-16 rounded-full inline-flex justify-center items-center text-sm md:text-md p-1">
+                        <a href="#" className="border border-dashed border-gray-500 w-12 md:w-16 h-12 md:h-16 rounded-full inline-flex justify-center items-center text-sm md:text-md p-1">
                             <span>{counter >= 100 ? 100 : counter}</span>
                             <sub>%</sub>
                         </a>
