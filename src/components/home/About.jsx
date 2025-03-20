@@ -31,7 +31,7 @@ export const About = () => {
                             </p>
                         </div>
                         <div className="mt-8 md:pl-4">
-                            <a className="inline-flex items-baseline leading-tight font-semibold text-slate-200 group group/link text-lg" href="/resume.pdf" target="_blank" rel="noreferrer noopener" aria-label="View Full Résumé (opens in a new tab)">
+                            <a className="inline-flex items-baseline leading-tight font-semibold group group/link text-lg" href="/resume.pdf" target="_blank" rel="noreferrer noopener" aria-label="View Full Résumé (opens in a new tab)">
                                 <span className='space-x-1'>
                                     <span className='group-hover:underline'>View Full</span>
                                     <span className="inline-block group-hover:underline">
