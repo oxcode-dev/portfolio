@@ -2,6 +2,8 @@
 
 import { motion } from "framer-motion"
 import TextSpinnerLoader from './../TextSpinnerLoader' 
+import { DarkModeContext } from "@/context/DarkModeContext";
+import { useContext } from "react";
   
 const sliderVariants = {
     initial: {
@@ -18,6 +20,7 @@ const sliderVariants = {
 };
 
 export const Hero = () => {
+    const {isDarkMode} = useContext(DarkModeContext)
     const info = `
         I enjoyed developing new user-facing features, the structure and design of web pages, building reusable codes, 
         optimizing page loading times, and using a variety of markup languages to create the web pages. 
@@ -37,8 +40,8 @@ export const Hero = () => {
                     </p>
 
                     <div className="w-full md:max-w-2xl flex justify-center pt-16 py-10 animate-pulse relative z-50">
-                        <a href="#projects" className="h-10 w-6 border rounded-full inline-flex items-center py-1 justify-center animate-bounce" title="Check my Portfolio">
-                            <span className="rounded-full w-2 h-2 animate-bounce"></span>
+                        <a href="#projects" className={`${isDarkMode ? 'border-white' : 'border-[#060801]'} opacity-70 h-10 w-6 border rounded-full inline-flex items-center py-1 justify-center animate-bounce`} title="Check my Portfolio">
+                            <span className={`rounded-full w-2 h-2 bg-${isDarkMode ? 'white' : '[#060801]'} animate-bounce`}></span>
                         </a>
                     </div>
 
