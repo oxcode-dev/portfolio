@@ -8,8 +8,8 @@ export const Contact = () => {
     return ( 
         <>
             <div className='h-full md:min-h-screen relative' id="contact">
-                <div className='absolute right-0 -top-12 opacity-50 z-10'>
-                    <h2 className='text-6xl md:text-[8rem] text-white/10 uppercase'>Contact</h2>
+                <div className='absolute right-0 -top-12 opacity-10 z-10'>
+                    <h2 className='text-6xl md:text-[8rem] uppercase'>Contact</h2>
                 </div>
                 
                 <div className="relative bottom-0 w-full">

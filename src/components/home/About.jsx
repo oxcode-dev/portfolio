@@ -6,8 +6,8 @@ export const About = () => {
     return ( 
         <>
             <div id='about' className='min-h-screen relative group'>
-                <div className='absolute right-0 -top-12 opacity-50'>
-                    <h2 className='text-6xl md:text-[8rem] text-white/10 uppercase'>About</h2>
+                <div className='absolute right-0 -top-12 opacity-10'>
+                    <h2 className='text-6xl md:text-[8rem] uppercase'>About</h2>
                 </div>
                 <div className='container mx-auto flex flex-wrap items-center px-6 sm:px-8 md:px-16 py-24'>
                     <div className='w-full md:w-1/2'>
