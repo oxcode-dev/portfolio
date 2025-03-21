@@ -9,7 +9,7 @@ import { DarkModeContext } from "@/context/DarkModeContext.js";
 
 export default function RootLayout({children}) {
     const [counter, setCounter] = useState(0)
-    const {isDarkMode, toggleDarkMode} = useContext(DarkModeContext)
+    const {isDarkMode} = useContext(DarkModeContext)
 
     useEffect(() => {
         const body = document.body
