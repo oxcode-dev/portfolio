@@ -4,7 +4,7 @@ export const TechCard = ({ technology }) => {
     return (
         <div className="relative p-2 group">
             <div className="absolute -top-10 min-w-32 justify-center hidden sm:group-hover:flex">
-                <div className="bg-gray-800 text-center text-pretty rounded min-w-16 mx-auto p-2 py-1">
+                <div className="bg-gray-800 text-white text-center text-pretty rounded min-w-16 mx-auto p-2 py-1">
                     {technology?.title || 'N/A'}
                 </div>
             </div>
