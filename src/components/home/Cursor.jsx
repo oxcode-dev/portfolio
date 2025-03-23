@@ -18,7 +18,7 @@ export const Cursor = () => {
 
     return (
         <motion.div
-            className="hidden md:inline-flex items-center justify-center rounded-full w-16 h-16 fixed z-[99999999] bg-white mix-blend-difference"
+            className="hidden md:inline-flex items-center justify-center rounded-full w-12 h-12 fixed z-[99999999] bg-white mix-blend-difference"
             animate={{ x: position.x+10, y: position.y+10 }}
         ></motion.div>
     );
