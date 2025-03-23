@@ -9,7 +9,7 @@ export const Contact = () => {
         <>
             <div className='h-full md:min-h-screen relative' id="contact">
                 <div className='absolute right-0 -top-12 opacity-10 z-10'>
-                    <h2 className='text-6xl md:text-[8rem] uppercase opacity-60'>Contact</h2>
+                    <h2 className='text-6xl md:text-[8rem] uppercase opacity-40'>Contact</h2>
                 </div>
                 
                 <div className="relative bottom-0 w-full">
